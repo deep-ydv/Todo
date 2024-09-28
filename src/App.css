@@ -1,0 +1,131 @@
+.container{
+  /* border: 2px solid black; */
+  width: 450px;
+
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #E8ECF4;
+}
+.heading{
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+
+}
+.main input{
+  font-size: 18px;
+  border: none;
+  padding:10px;
+  width: 250px;
+  height: 36px;
+  border-radius: 18px 0px 0px 18px;
+}
+.main button{
+  font-size: 18px;
+  height: 36px;
+  border: none;
+  border-radius: 0px 18px 18px 0px;
+  padding: 0 16px;
+  background-color: #6DCBE5;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main button:hover{
+  background-color: yellow;
+  font-size: 17px;
+}
+.list-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+.list{
+  list-style: none;
+ }
+.task{
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  border: 2px solid white;
+  /* height: 30px; */
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background-color:#242527;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.check{
+  font-size: 26px;
+  cursor: pointer;
+
+
+}
+.check:hover{
+  color: green;
+}
+.delete{
+  /* background-color: red; */
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.delete:hover{
+  color: red;
+}
+.date-time{
+  font-size: 24px;
+  color:white;
+  font-weight: 600;
+  
+}
+.clear-all{
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  padding: 6px 16px;
+  cursor: pointer;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.clear-all:hover{
+  background-color: rgb(216, 25, 25);
+  font-size: 14px;
+}
+.check-task{
+  text-decoration: line-through;
+  font-size: 24px;
+  color: white;
+  border: 2px solid white;
+  /* height: 30px; */
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background-color:red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merienda:wght@300..900&display=swap');
